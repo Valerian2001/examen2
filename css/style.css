@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran&display=swap');
+body{
+	font-family: 'Catamaran', sans-serif;
+}
+:root{
+	--color-negro:#282d33;
+	--menu-hover:#282d33;
+	--fondo-footer:#30363d;
+	--color-footer:#898989;
+}
+
+
+header{
+	background-color: #fff;
+}
+
+#hero{
+	background-image: url("../img/Services-Title-Image.jpg");
+	background-position: top center;
+	background-size: cover;
+	padding: 5%;
+	color: #fff;
+}
+
+#hero h3{
+	text-align: center;
+	font-size: 100px;
+}
+
+.section{
+	padding: 60px 0;
+}
+
+
+#icons h4{
+	color: #303030;
+	font-size: 20px;
+	text-align: center;
+}
+#icons p{
+	font-size: 17px;
+	text-align: center
+}
+
+#icons i{
+	font-size: 100px;
+	text-align: center;
+	color: #e0e0e0;
+}
+
+#icons .cheque{
+	font-size: 30px;
+	text-align: center;
+	color: #53c3c9;
+}
+
+#info{
+	text-align: center;
+	background-color: #f7f7f7;
+}
+
+#info .service-info{
+	padding: 20px;
+}
+
+#info img{
+	padding-bottom: 40px;
+}
+
+.section-info h4{
+	color: #303030;
+	font-size: 20px;
+	text-align: center;
+}
+
+.section-info p{
+	font-size: 16px;
+	text-align: center;
+}
+
+#features .uno{
+	
+}
+
+
+#features .fully{
+	background-color: #3d4248;
+	color:#FFFFFF;
+}
+
+
+#features .Woo{
+	background-color: #d8d8d8;
+	color:#FFFFFF;
+}
+
+#features .Pixel{
+	background-color: #f0f0f0;
+	color:#000000;
+}
+
+#features a{
+	padding: 20px 30px;
+    background-color:#000000 ;
+    border: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+}
+
+#features .boton{
+	 padding: 20px 30px;
+    background-color: #FFFFFF;
+    border: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    color: #000000;
+}
+
+
+
+
+
+
+footer .titulo{
+    color: #FFFFFF;
+    margin: 50px 0;
+}
+footer{
+    background-color: var(--fondo-footer);
+    color: var(--color-footer);
+    padding: 20px 0;
+    text-align: left;
+    font-size: 13px;
+}
+footer ul{
+    margin: 0 50px;
+}
+footer li a{
+    width: 30px;
+    height: 30px;
+    background-color: #171717;
+    text-align: center;
+    color: #BBBBBB;
+    
+}
+footer p{
+    text-align:center;
+}
